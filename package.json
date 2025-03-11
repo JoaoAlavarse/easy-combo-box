@@ -4,7 +4,7 @@
   "description": "A simple and easy react combo box component",
   "main": "index.tsx",
   "scripts": {
-    "test": "npm run test"
+    "test": "echo \"Error: no test specified\" && exit 1" 
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
     "Combo",
     "Box",
     "ComboBox",
-    "React"
+    "React",
+    "Typescript"
   ],
   "author": "Joao Alavarse",
   "license": "ISC",
