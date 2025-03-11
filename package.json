@@ -1,0 +1,29 @@
+{
+  "name": "easy-combo-box",
+  "version": "1.0.0",
+  "description": "A simple and easy react combo box component",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoAlavarse/easy-combo-box.git"
+  },
+  "keywords": [
+    "Combo",
+    "Box",
+    "ComboBox",
+    "React"
+  ],
+  "author": "Joao Alavarse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoAlavarse/easy-combo-box/issues"
+  },
+  "homepage": "https://github.com/JoaoAlavarse/easy-combo-box#readme",
+  "dependencies": {
+    "@types/react": "^19.0.10",
+    "react": "^19.0.0"
+  }
+}
