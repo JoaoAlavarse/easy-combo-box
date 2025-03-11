@@ -1,13 +1,16 @@
 {
   "name": "easy-combo-box",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple and easy React combo box component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js"
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "files": [
     "dist"
