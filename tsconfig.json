@@ -9,10 +9,15 @@
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "outDir": "dist",
+    "declarationDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false
+    "noEmit": false,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/easy-combo-box/dist"
+    ]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
