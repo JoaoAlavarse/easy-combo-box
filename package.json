@@ -1,10 +1,13 @@
 {
   "name": "easy-combo-box",
   "version": "1.0.0",
-  "description": "A simple and easy react combo box component",
-  "main": "index.tsx",
+  "description": "A simple and easy React combo box component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" 
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,8 +26,12 @@
     "url": "https://github.com/JoaoAlavarse/easy-combo-box/issues"
   },
   "homepage": "https://github.com/JoaoAlavarse/easy-combo-box#readme",
-  "dependencies": {
-    "@types/react": "^19.0.10",
-    "react": "^19.0.0"
+  "devDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
   }
 }
