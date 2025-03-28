@@ -36,7 +36,7 @@ export default function ComboBox(props: ComboBoxProps) {
           className={props.listWrapperClassName || ""}
         >
           {
-            props.data.filter((current: string) => current.toLowerCase().includes(filter.toLowerCase()) && filter !== current).map((current: string, index: number) => (
+            props.data.filter((current: string) => current.toLowerCase().includes(filter.toLowerCase())).map((current: string, index: number) => (
               <li
                 className={props.listItemClassName || ""}
                 key={index}
